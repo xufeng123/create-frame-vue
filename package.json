@@ -1,0 +1,30 @@
+{
+  "name": "create-frame-vue",
+  "version": "1.0.0",
+  "description": "vue-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xufeng123/create-frame-vue.git"
+  },
+  "author": "xufeng",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
+    "inquirer": "^6.2.2",
+    "path": "^0.12.7",
+    "yosay": "^2.0.1"
+  },
+  "bin": {
+    "create-frame-vue": "bin/create-frame-vue.js"
+  },
+  "bugs": {
+    "url": "https://github.com/xufeng123/create-frame-vue/issues"
+  },
+  "homepage": "https://github.com/xufeng123/create-frame-vue#readme"
+}
