@@ -123,5 +123,6 @@ inquirer.prompt(prompts).then(answers => {
     fs.writeFileSync(this.combPath + '/vue.config.js', file, 'utf8');
 }).then(() => {
     _deleteFolder(this.combPath + '/.git');
-    console.log('end');
+    console.log('项目：' + promptParams.projectName + '已创建完成！');
+    console.log('您可使用：cd ' + promptParams.projectName + '&& npm install(cnpm install) && npm run serve 启动项目~');
 });
